@@ -1,0 +1,253 @@
+export const profile = {
+  name: "Harshith Mullapudi",
+  role: "Java Full Stack Engineer | AI + Backend Systems Engineer",
+  tagline: "Building scalable backend systems and AI-integrated applications.",
+  location: "USA",
+  email: "harshithmullapudi37@gmail.com",
+  phone: "+1 469-364-4637",
+  linkedin: "https://linkedin.com/in/harshithchowdary",
+  github: "https://github.com/Harshith3377",
+  resumeUrl: "/resume.pdf",
+
+  summary:
+    "Java Full Stack Engineer with 4+ years of experience building scalable microservices using Java, Spring Boot, Kafka, React, and AWS. Strong in designing event-driven architectures, optimizing APIs, and handling high-throughput distributed systems. Experience integrating AI/ML-driven services and NLP-based workflows into production systems to enhance automation and decision-making. Skilled in building reliable backend systems with a focus on performance, observability, and maintainability.",
+
+  targetRoles: [
+    "Java Backend Engineer",
+    "Java Full Stack Engineer",
+    "Backend Software Engineer",
+    "AI Backend Engineer",
+    "Applied AI Engineer",
+    "Software Engineer – AI Systems",
+    "ML Platform Engineer",
+  ],
+
+  skills: {
+    backend: [
+      "Java (8/11/17)",
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Security",
+      "Hibernate",
+      "REST APIs",
+      "GraphQL",
+    ],
+    frontend: [
+      "React.js",
+      "Redux",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+    ],
+    distributedSystems: [
+      "Microservices Architecture",
+      "Apache Kafka",
+      "Event-Driven Architecture",
+      "Service Decomposition",
+      "API Design",
+      "Service Mesh",
+    ],
+    databases: [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Query Optimization",
+      "Indexing Strategies",
+    ],
+    cloud: [
+      "AWS EC2",
+      "AWS EKS",
+      "AWS S3",
+      "AWS RDS",
+      "Docker",
+      "Kubernetes",
+      "Container Orchestration",
+    ],
+    devops: [
+      "Jenkins",
+      "GitHub Actions",
+      "CI/CD Pipelines",
+      "Build Automation",
+    ],
+    aiml: [
+      "NLP",
+      "Prompt Engineering",
+      "OpenAI APIs",
+      "Vector Embeddings",
+      "RAG Concepts",
+      "Scikit-learn",
+    ],
+    monitoring: [
+      "Prometheus",
+      "Grafana",
+      "ELK Stack",
+      "AWS CloudWatch",
+      "Logging",
+      "Alerting",
+    ],
+    architecture: [
+      "Circuit Breaker",
+      "Fault Tolerance",
+      "Retry Mechanisms",
+      "API Versioning",
+      "Scalable System Design",
+    ],
+    testing: [
+      "JUnit",
+      "Mockito",
+      "Unit Testing",
+      "Integration Testing",
+      "Test Coverage",
+    ],
+  },
+
+  experience: [
+    {
+      id: "att",
+      title: "Software Engineer II",
+      company: "AT&T",
+      location: "Dallas, TX",
+      period: "Oct 2024 – Present",
+      project: "Intelligent Network Operations & Customer Experience Platform",
+      bullets: [
+        "Developed Spring Boot microservices supporting telecom provisioning workflows, handling ~5K daily service activations across distributed systems.",
+        "Designed REST and GraphQL APIs for communication across customer, billing, and partner services, improving system interoperability.",
+        "Built Kafka-based event pipelines for provisioning and billing workflows, reducing cross-system data latency by 25%.",
+        "Implemented Redis caching for high-frequency service metadata, improving API response times by 35% under peak load.",
+        "Developed React dashboards aggregating microservices data, reducing manual tracking effort by 20% for operations teams.",
+        "Secured APIs using Spring Security (OAuth2, JWT), ensuring role-based access control across internal and external systems.",
+        "Optimized PostgreSQL queries and schema design, improving query performance during high concurrency scenarios.",
+        "Containerized services using Docker and deployed on AWS EKS, enabling stable and repeatable production releases.",
+        "Automated CI/CD pipelines using Jenkins and GitHub Actions, reducing deployment time by 40%.",
+        "Integrated NLP-based log analysis to identify recurring failure patterns from ELK data, improving incident triage efficiency.",
+        "Designed AI-assisted diagnostics using historical logs and event streams, improving root cause identification speed during production incidents.",
+      ],
+      techStack: [
+        "Java",
+        "Spring Boot",
+        "Kafka",
+        "Redis",
+        "GraphQL",
+        "AWS EKS",
+        "PostgreSQL",
+        "Docker",
+        "Jenkins",
+        "NLP",
+        "ELK Stack",
+        "React",
+      ],
+    },
+    {
+      id: "kroger",
+      title: "Software Engineer",
+      company: "Kroger",
+      location: "Hyderabad, India",
+      period: "Jan 2022 – Dec 2023",
+      project: "AI-Driven Retail Supply Chain & Customer Insights Platform",
+      bullets: [
+        "Developed Spring Boot microservices for product catalog, pricing, and inventory systems supporting high-volume retail transactions.",
+        "Designed REST APIs enabling communication between e-commerce, warehouse, and analytics systems in a distributed architecture.",
+        "Built Kafka-driven pipelines for inventory synchronization, improving real-time data consistency by 20%.",
+        "Delivered React dashboards visualizing inventory and demand data, enabling merchandising teams to make faster replenishment decisions.",
+        "Integrated machine learning-based demand forecasting services, reducing stockout rates by 15%.",
+        "Implemented Redis caching for high-frequency product queries, improving response time by 30% during peak traffic.",
+        "Tuned PostgreSQL queries and indexing strategies, reducing latency during high-volume sales events.",
+        "Deployed containerized applications on AWS EC2 and EKS, ensuring scalability and availability.",
+        "Exposed ML model inference endpoints via REST APIs to support personalized recommendations in customer-facing applications.",
+        "Built data pipelines to process user activity and feed recommendation systems using event-driven architecture.",
+        "Applied fault-tolerant patterns (retries, circuit breakers) to improve resilience across distributed services.",
+      ],
+      techStack: [
+        "Java",
+        "Spring Boot",
+        "Kafka",
+        "Redis",
+        "REST APIs",
+        "AWS EC2/EKS",
+        "PostgreSQL",
+        "ML APIs",
+        "React",
+        "Docker",
+      ],
+    },
+  ],
+
+  projects: [
+    {
+      id: "customer-support",
+      title: "AI-Powered Customer Support Assistant",
+      description:
+        "Backend service integrating NLP-based APIs to classify customer queries and generate contextual responses at scale.",
+      bullets: [
+        "Built a backend service integrating NLP-based APIs to classify customer queries and suggest contextual responses.",
+        "Implemented embedding-based search to retrieve relevant knowledge base responses for customer queries.",
+        "Designed asynchronous processing pipelines using Kafka to handle high-volume support requests.",
+        "Exposed REST APIs for ticket ingestion, routing, and response generation.",
+      ],
+      techStack: ["NLP", "Kafka", "REST APIs", "Embeddings", "Java", "Spring Boot"],
+      category: "AI/NLP",
+    },
+    {
+      id: "recommendation-engine",
+      title: "Smart Recommendation Engine",
+      description:
+        "Microservices-based real-time recommendation system using event-driven processing and ML-based user segmentation.",
+      bullets: [
+        "Developed microservices to process user activity streams and generate recommendations based on behavior patterns.",
+        "Implemented event-driven processing using Kafka consumers for real-time recommendation updates.",
+        "Applied basic machine learning techniques for user segmentation and recommendation improvement.",
+        "Built low-latency APIs to serve recommendations to frontend applications.",
+      ],
+      techStack: ["Kafka", "ML", "Microservices", "REST APIs", "Java", "Spring Boot"],
+      category: "ML Systems",
+    },
+  ],
+
+  achievements: [
+    {
+      metric: "30%",
+      label: "API Performance Improvement",
+      detail: "Introduced caching strategies and optimized database queries across high-traffic endpoints.",
+    },
+    {
+      metric: "40%",
+      label: "Faster Deployment",
+      detail: "Implemented automated CI/CD pipelines for microservices across multiple services.",
+    },
+    {
+      metric: "25%",
+      label: "Reduced Cross-System Latency",
+      detail: "Built Kafka-based event pipelines for provisioning and billing workflows.",
+    },
+    {
+      metric: "35%",
+      label: "Better API Response Times",
+      detail: "Redis caching for high-frequency service metadata under peak load.",
+    },
+    {
+      metric: "20%",
+      label: "Improved Data Consistency",
+      detail: "Event-driven communication reducing data synchronization delays across systems.",
+    },
+  ],
+
+  education: [
+    {
+      degree: "Master of Science in Artificial Intelligence",
+      institution: "University of North Texas",
+      location: "USA",
+    },
+  ],
+
+  certifications: [
+    "Oracle Certified Professional – Java SE 17",
+    "AWS Certified Developer – Associate",
+    "Microsoft Azure Fundamentals (AZ-900)",
+  ],
+
+  workAuthorization: "Authorized to work in the USA",
+};
+
+export type Profile = typeof profile;
